@@ -1,0 +1,23 @@
+{
+  "name": "kanboard",
+  "version": "0.0.1",
+  "description": "Kanboard API client",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanboard/javascript-api-client.git"
+  },
+  "keywords": [
+    "kanboard",
+    "jsonrpc"
+  ],
+  "author": "Frédéric Guillot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanboard/javascript-api-client/issues"
+  },
+  "homepage": "https://github.com/kanboard/javascript-api-client#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
