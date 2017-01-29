@@ -11,7 +11,7 @@ Javascript API Client for Kanboard
 Requirements
 ------------
 
-- Tested with nodejs >= v7.3.x
+- Tested with nodejs >= 7.3.x
 
 Installation
 ------------
@@ -25,6 +25,8 @@ Examples
 
 Methods and arguments are the same as the API procedures described in the [official documentation](https://kanboard.net/documentation/api-json-rpc).
 
+### Get list of projects
+
 ```javascript
 const Kanboard = require('kanboard');
 
@@ -37,4 +39,16 @@ kb.execute('getMyProjects')
 .on('error', (error) => {
     console.log(error);
 });
+```
+
+### Create a new project
+
+```javascript
+kb.execute('getMyProjects', {name: 'My project'});
+```
+
+### Create a new task
+
+```javascript
+kb.execute('createTask', {title: 'My task', project_id: 3, color_id: 'blue'});
 ```
