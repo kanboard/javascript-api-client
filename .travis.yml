@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js:
+  - '7'
+before_script:
+  - npm install
+script:
+  - npm run lint
+deploy:
+  provider: npm
+  email: contact@kanboard.net
+  api_key:
+    secure: Z+lZRbw8YB1PCC6XePgDiHruDDi1he5RxYYE4B1uEv2wUCQrBUbkuCsBHsvZ72COJAnbJCsh846RxbkzJqg0zB3FBntWRINvi40AkeCaD4ZuLhRwk2kxwJWhWj4vEawG0DJFaATg9S62g7E8KpNfyW9LGScBw9H3MUowj4iZI1P+FFkWR+rjGfrKc531Lkn6H9abwEefgMs1whoXryIVjEmdCIuGF0SrVUtk5T175NXD3W5R1g+/RP4kl7lzP0lr+J1+ASF2VfZ1ICtdW6SftGweTeIJOMBWX1IOWfsAJB4XJBtVNagXBOZ70Tm8qq/edQVXpeObZbW3g3L1iFuIjDSohbG6y7nncbutYdNhpsGXriGWWM4nLP7ZaOdqGLIQZuFpfBJNxgQwRBFTXL/lZIWard2AJzMmeTiRcXGwxHbBRgQli95mz2JdzQszxta36hYfz0yinNg4O9crumZEgdDJ+TsHquG8U8h1YPC1moFRg3Zs0ZMKH/iHGRAB1l4PhoZ/SHMjZRTr7aK1bOHyXhYuMq5iiC3NNPHACui3ktkKQBotDnuDVJvFcY3utc2tOKQW+10SOLSRMKzRRP5UYzTyXysNckkk4m4UEHsTBUGWeIrrIfryiBJLjy4x5Ug7/EqZ8ugLPqV9ZP7N38lcVN7Nub4R4ngcpHzeboc3bD8=
+  on:
+    tags: true
+    repo: kanboard/javascript-api-client
