@@ -22,9 +22,9 @@ Examples
 Methods and arguments are the same as the API procedures described in the [official documentation](https://kanboard.net/documentation/api-json-rpc).
 
 ```javascript
-const kanboard = require('kanboard');
+const Kanboard = require('kanboard');
 
-var kb = new kanboard.Client('http://localhost/jsonrpc.php', 'username', 'password');
+var kb = new Kanboard('http://localhost/jsonrpc.php', 'username', 'password');
 
 kb.execute('getMyProjects')
 .on('success', (result) => {

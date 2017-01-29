@@ -2,7 +2,7 @@ const EventEmitter = require('events');
 const http = require('http');
 const url = require('url');
 
-class Client {
+module.exports = class Client {
     constructor(url, username, password, authenticationHeader = 'Authorization') {
         this.url = url;
         this.username = username;
@@ -87,6 +87,4 @@ class Client {
             this.eventEmitter.emit('error', new Error(response.error.message));
         }
     }
-}
-
-module.exports = Client;
+};
