@@ -88,3 +88,5 @@ class Client {
         }
     }
 }
+
+exports.Client;
