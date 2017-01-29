@@ -3,6 +3,8 @@ Javascript API Client for Kanboard
 
 [![Build Status](https://travis-ci.org/kanboard/javascript-api-client.svg?branch=master)](https://travis-ci.org/kanboard/javascript-api-client)
 
+[Kanboard](https://kanboard.net/) is a Kanban project management software.
+
 - Author: Frédéric Guillot
 - License: MIT
 
