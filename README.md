@@ -1,6 +1,8 @@
 Javascript API Client for Kanboard
 ==================================
 
+[![Build Status](https://travis-ci.org/kanboard/javascript-api-client.svg?branch=master)](https://travis-ci.org/kanboard/javascript-api-client)
+
 - Author: Frédéric Guillot
 - License: MIT
 
