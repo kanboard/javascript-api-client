@@ -2,6 +2,12 @@
   "name": "kanboard",
   "version": "0.0.1",
   "description": "Kanboard API client",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "scripts": {
+    "lint": "jshint *.js"
+  },
   "main": "main.js",
   "repository": {
     "type": "git",

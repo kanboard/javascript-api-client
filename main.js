@@ -89,4 +89,4 @@ class Client {
     }
 }
 
-exports.Client;
+module.exports = Client;
