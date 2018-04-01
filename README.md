@@ -23,7 +23,7 @@ npm install kanboard
 Examples
 --------
 
-Methods and arguments are the same as the API procedures described in the [official documentation](https://kanboard.net/documentation/api-json-rpc).
+Methods and arguments are the same as the API procedures described in the [official documentation](https://docs.kanboard.org/en/1.2.2/api/index.html).
 
 ### Get list of projects
 
